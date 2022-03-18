@@ -1,0 +1,579 @@
+
+/* --- logo ----*/
+.logo{
+    
+    font: 700 1.875rem 'Roboto', sans-serif;
+    color: var(--azul);
+}
+
+.logo span{
+    color: var(--verde);
+}
+
+.font-weight-bold{
+    font-weight: 700;
+}
+
+.faixa ul li {
+    display: inline-block;
+    padding-right: 4px;
+}
+
+/* ----- efeito menu ------ */
+#mainNav {
+    border-bottom: 1px solid #e4e4e4;
+
+    
+}
+
+#mainNav.scroll {
+    box-shadow: opx opx 12px rgba(0, 0, 0, 0.15);
+
+
+}
+#main{
+    margin-top: 3.25rem;
+}
+
+nav ul li a{
+    
+    border-top: 0.238rem solid white;
+    border-bottom: 0.238rem solid white;
+}
+
+nav ul li a.verde:hover{
+    color: var(--verde)!important;
+    border-bottom: 0.238rem solid var(--verde); 
+}
+
+/* ----  dropdown color onclick ---- */
+.show {
+    position: relative;
+    z-index: 10;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #c8c8c8;
+}
+
+/* ---- busca ----*/
+.lupa{
+    background-color: var(--verdeEscuro);
+    color: white;
+}
+.lupa:hover{
+    background-color: var(--azul);
+    color: white;
+}
+/*  ---- slider parallax ----*/
+
+.parallax {
+    height: 40vh;
+    background: black;
+    overflow: hidden;
+}
+.parallax div.container {
+    /*padding: 50px;*/
+    position: relative;
+    z-index: 2;
+}
+.parallax:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+ 
+    width: 100%;
+    height: 40vh;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url(assets/img/home2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallax1 {
+    height: 55vh;
+    background: #0f5132;
+    overflow: hidden;
+}
+.parallax1 div.container {
+    /*padding: 50px;*/
+    position: relative;
+    z-index: 2;
+}
+.parallax1:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+ 
+    width: 100%;
+    height: 55vh;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url(assets/img/home2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 425px){
+    .parallax1 {
+        height: 110vh;
+        background: #0f5132;
+        overflow: hidden;
+    }
+    .parallax1 div.container {
+        /*padding: 50px;*/
+        position: relative;
+        z-index: 2;
+    }
+    .parallax1:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+     
+        width: 100%;
+        height: 110vh;
+        z-index: 1;
+        opacity: 0.3;
+        background-image: url(assets/img/home2.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.parallax2 {
+    height: 50vh;
+    background: #213f58;
+    overflow: hidden;
+}
+.parallax2 div.container {
+    /*padding: 50px;*/
+    position: relative;
+    z-index: 2;
+}
+.parallax2:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+ 
+    width: 100%;
+    height: 50vh;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url(assets/img/home2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 425px){
+    .parallax2 {
+        height: 130vh;
+        background: #213f58;
+        overflow: hidden;
+    }
+    .parallax2 div.container {
+        /*padding: 50px;*/
+        position: relative;
+        z-index: 2;
+    }
+    .parallax2:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+     
+        width: 100%;
+        height: 130vh;
+        z-index: 1;
+        opacity: 0.3;
+        background-image: url(assets/img/home2.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.parallax3 {
+    height: 50vh;
+    background: #994c00;
+    overflow: hidden;
+}
+.parallax3 div.container {
+    /*padding: 50px;*/
+    position: relative;
+    z-index: 2;
+}
+.parallax3:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+ 
+    width: 100%;
+    height: 50vh;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url(assets/img/home2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 425px){
+    .parallax3 {
+        height: 70vh!important;
+        background: #994c00;
+        overflow: hidden;
+    }
+    .parallax3 div.container {
+        /*padding: 50px;*/
+        position: relative;
+        z-index: 2;
+    }
+    .parallax3:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+     
+        width: 100%;
+        height: 70vh!important;
+        z-index: 1;
+        opacity: 0.3;
+        background-image: url(assets/img/home2.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.parallax4 {
+    height: 50vh;
+    background: #898900;
+    overflow: hidden;
+}
+.parallax4 div.container {
+    /*padding: 50px;*/
+    position: relative;
+    z-index: 2;
+}
+.parallax4:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+ 
+    width: 100%;
+    height: 50vh;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url(assets/img/home2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 625px){
+    .parallax4 {
+        height: 80vh!important;
+        background: #898900;
+        overflow: hidden;
+    }
+    .parallax4 div.container {
+        /*padding: 50px;*/
+        position: relative;
+        z-index: 2;
+    }
+    .parallax4:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+     
+        width: 100%;
+        height: 80vh!important;
+        z-index: 1;
+        opacity: 0.3;
+        background-image: url(assets/img/home2.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.parallax5 {
+    height: 40vh;
+    background: #530099;
+    overflow: hidden;
+}
+.parallax5 div.container {
+    /*padding: 50px;*/
+    position: relative;
+    z-index: 2;
+}
+.parallax5:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+ 
+    width: 100%;
+    height: 40vh;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url(assets/img/home2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 625px){
+    .parallax5 {
+        height: 80vh!important;
+        background: #530099;
+        overflow: hidden;
+    }
+    .parallax5 div.container {
+        /*padding: 50px;*/
+        position: relative;
+        z-index: 2;
+    }
+    .parallax5:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+     
+        width: 100%;
+        height: 80vh!important;
+        z-index: 1;
+        opacity: 0.3;
+        background-image: url(assets/img/home2.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+
+
+
+
+/* ---- section ------*/
+.icon{
+    color: #67BB80;
+    background-color: white;
+    border-radius: 5rem;
+}
+section {
+    min-height: 67vh;
+}
+
+.list-group-item-light:hover{
+    background-color: #67BB80!important;
+    color: white!important;
+}
+.tags {
+    background-color: #67BB80;
+    border-radius: 20px;
+    color: white;
+    margin-right: 0.5rem;
+}
+.tags:hover{
+    background-color: var(--azul);
+    color: white;
+}
+
+
+/* --- form search --- */
+.submit-lente {
+    position:absolute;
+    top:0; right:0;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+  }
+  
+  .submit-line {
+    position: relative;
+    display: block;
+  }
+  
+  .submit-line input {
+    width: 100%;
+  }
+
+
+
+/* --- base ---- */
+a{
+    text-decoration: none;
+    color: var(--verdeEscuro);
+}
+a:hover{
+    color: var(--azul);
+}
+.title{
+    text-decoration: none;
+    color: black;
+}
+.title:hover{
+    color: var(--azul);
+}
+.icone{
+    margin-right: 1.25rem ;  
+    font-size: 2.5rem;
+}
+.icone-2{
+    margin-right: 0.5rem;
+    font-size: 1.31rem;
+
+}
+:root{
+    --text-color-light: hsl(0 05 98%);
+
+    --azul: #386994;
+    --verde: #67BB80;
+    --verdeEscuro: #198754;
+
+    --title-font: 'Roboto', sans-serif;
+    --body-font: 'DM Sans', sans-serif;
+
+    --hue: 159;
+    --base-color: hsl(var(--hue) 36% 57%);
+    --base-color-second: hsl(var(--hue) 65% 88%);
+    --base-color-alt: hsl(var(--hue) 57% 53%);
+}
+.btn-success{
+    
+    border: 0.138rem!important;
+    /* border: 0.125rem solid  var(--azul); */
+    border-radius: 1.8rem!important;
+
+
+    font-size: 1.25rem;
+    font-weight: 700!important;
+}
+.btn-success:hover{
+    background-color: var(--azul)!important;
+    color: white!important;
+    transition: background-color 0.9s!important;
+    transition: color 0.3s!important;
+
+    font-size: 1.25rem;
+    font-weight: 700!important;
+}
+
+nav ul li a{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/* ---- divider ---- */
+
+.divider-1{
+    height: 2px;
+    background: linear-gradient(270deg, hsla(var(--hue), 65%, 88%, 0.34), hsla(var(--hue), 36%, 57%, 1));
+}
+
+.shadow-e:hover {
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* --- sessao da direita ---*/
+.list-group-item{
+    border: none;
+}
+
+.list-group-item:hover{
+    background-color: var(--verde);
+    color: white;
+}
+
+@media(max-width: 425px){
+    .icone{
+        margin-top:-25px; 
+        font-size: 25px;
+    }
+    .pequeno{
+        margin-left: -50px;
+    }
+}
+
+
+#navbarResponsive.show {
+    height: 100vh;
+    overflow-y: scroll;
+}
+/* --- página perfil ---*/
+
+.perfil {
+    margin-top: 6.50rem;
+}
+.color{
+    background-color:#d6d6d7;
+}
+
+div i{
+    color: var(--verde);
+}
+
+.verde {
+    color: var(--verdeEscuro);
+}
+
+@media(max-width: 768px){
+    .perfil {
+        margin-top: 3.50rem;
+    }
+}
+
+/* --- edit perfil ---*/
+
+.labels {
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    padding-top: 1.0rem;
+}
+
+.out{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+/*#tituloPost::-webkit-input-placeholder, #tags::-webkit-input-placeholder{
+    color: black;
+    font-weight: bold;
+}
+*/
+
+/* input  para tags */
+
+.bootstrap-tagsinput .tag {
+    margin-right: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-weight: bold;
+    background-color: var(--verde);
+    color: white;
+    border: solid 1px;
+    border-radius: 0.3rem;
+}
+
+.comment h4, 
+.comment span{
+    display: inline;
+}

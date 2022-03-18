@@ -1,0 +1,12 @@
+#lang racket
+(define (insert L M)
+	(if (null? L) M
+		(if (null? M) L
+			(if (< (car L) (car M))
+				(cons (car L) (insert (cdr L) M))
+				(cons (car M) (insert (cdr M) L))))))
+
+
+(define (insertionsort L)
+	(if (null? L) '()
+		(insert (list (car L)) (insertionsort (cdr L)))))
